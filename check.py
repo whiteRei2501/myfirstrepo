@@ -5,9 +5,6 @@ from argparse import ArgumentParser
 
 session_requests = requests.session()
 
-ADMIN_USER="noone@2501.prj"
-ADMIN_PASS="noone123456"
-
 def multifrm(userid, username, csrftoken_, EMAIL, HOSTNAME, uservar):
     request_1 = {
         'sf_method': (None, 'put'),
